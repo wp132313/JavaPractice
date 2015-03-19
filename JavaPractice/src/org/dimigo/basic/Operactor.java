@@ -18,6 +18,11 @@ public class Operactor {
 		System.out.println(String.format("평행사변형의 넓이:%.1f",s2));
 		System.out.println("");
 		System.out.println("");
-		System.out.println(String.format("사다리꼴이 평행사변형 보다 %.1f 더 큽니다.",s1-s2));
+		if(s1>s2){
+			System.out.println(String.format("사다리꼴이 평행사변형 보다 %.1f 더 큽니다.",s1-s2));
+		}
+		else {
+			System.out.println(String.format("평행사변형이 사다리꼴 보다 %.1f 더 큽니다.",s2-s1));
+		}
 	}
 }
