@@ -5,7 +5,7 @@ public class Condition {
 	public static void main(String[] args) {
 		
 		String car = "경차";
-		int dis = 10;
+		int dis = 1;
 		int m1=850;
 		int m2=300;
 		int m3=600;
